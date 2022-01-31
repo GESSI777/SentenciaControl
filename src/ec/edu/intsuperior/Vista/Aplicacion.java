@@ -5,12 +5,29 @@
  */
 package ec.edu.intsuperior.Vista;
 
+import ec.edu.intsuperior.controlador.Pais;
+
 /**
  *
  * @author Windows 10
  */
 public class Aplicacion {
     public static void main (String []args) { 
-        System.out.println("hola");
+        Pais pais1 = new Pais("p001","Argentina");
+        Pais pais2 = new Pais("p002","Brazil");
+        Pais pais3 = new Pais("p002","bolibia");
+        Pais pais4= new pais("p003","chile");
+        
+        System.out.println (pais1.getCodigoPais() +"  - " +pais1.getNombrePais());
+        System.out.println(pais2.tosString());
+                
+                
+        
+                
+                
+               
+                
+                
+                
     }
 }
